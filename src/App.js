@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Characters from './components/Characters';
+import './app.css'
+import Logo from './img/logo.jpg';
 
-function App() {
+
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <header  id="rolar" className="container-fluid py-3">
+       <h1 className="navbar d-flex justify-content-center">
+         <img src={Logo} alt="Logo da Marvel"/>
+       </h1> 
+    </header>
+    <Characters/>
+    </>
   );
 }
 
 export default App;
+//'http://gateway.marvel.com/v1/public/characters?'

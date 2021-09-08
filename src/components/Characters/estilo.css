@@ -1,0 +1,16 @@
+
+
+body {
+    background-color: white;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+button i {
+    margin-right: 10px
+}
