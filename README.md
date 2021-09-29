@@ -1,4 +1,4 @@
-#Recomendo a utilização de alguma extensão em seu navegador, para evitar o bloqueio devido a política de CORS, utilizei a seguinte extensão no Google Chrome: Allow CORS: Access-Control-Allow-Origin
+#Recomendo a utilização de alguma extensão em seu navegador, para evitar o bloqueio devido a política de CORS, utilizei a seguinte extensão no Google Chrome:https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=pt-BR&
 
 # Getting Started with Create React App
 
